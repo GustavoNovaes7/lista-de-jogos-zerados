@@ -1,0 +1,219 @@
+/*Corpo principal e título*/
+body {
+    background: url('../imgs/corpo-fundo.jpg');
+    background-color: black;
+    color: white;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 40px;    
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/*Rodapé*/
+footer {
+    margin-left: 68%;
+    margin-top: 70px;
+}
+
+/*Menu*/
+.menu {
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    margin-bottom: 40px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(37, 37, 37);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    border-radius: 10px;
+}
+.menu li {
+    float: left;
+}
+      
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu :hover {
+    background-color: #111;
+}
+
+.botaoinicio {
+    background-color: #121213;
+}
+
+/*Espaçamento ao clicar indo para as ancoras*/
+#snes, #gb, #n64, #nds, #ps1, #ps2, #ps3, #ps4, #pc{
+    scroll-margin-top: 46px;
+}
+
+/*Formato de Containers, Listas e Bordas*/
+.containerSnes, .containerGameBoy, .containerN64, .containerNDS, .containerPS1, .containerPS2, .containerPS3, .containerPS4, .containerPC{
+    font-size: 30px;
+    font-family: 'Arial Black';
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    min-width: 420px;
+}
+
+.listaSnes, .listaGameBoy, .listaN64, .listaNDS, .listaPS1, .listaPS2, .listaPS3, .listaPS4, .listaPC{
+    font-family: 'Monospaced';
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+    gap: 20px;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.listaSnes li, .listaGameBoy li, .listaN64 li, .listaNDS li, .listaPS1 li, .listaPS2 li, .listaPS3 li, .listaPS4 li, .listaPC li {
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Cor containers Nintendo*/
+.containerSnes, .containerGameBoy, .containerN64, .containerNDS{
+    background-color: red;
+}
+
+/*Cor containers Playstation*/
+.containerPS1, .containerPS2, .containerPS3, .containerPS4{
+    background-color: rgb(3, 3, 194);
+}
+
+/*Cor container PC*/
+.containerPC{
+    background-color: rgb(87, 3, 143);
+}
+
+/*Cor da borda Nintendo*/
+.listaSnes li, .listaGameBoy li, .listaN64 li, .listaNDS li {
+    background-color: rgba(121, 3, 3, 0.911); 
+}
+
+/*Cor da borda Playstation*/
+.listaPS1 li, .listaPS2 li, .listaPS3 li, .listaPS4 li {
+    background-color: rgba(5, 3, 107, 0.753); 
+}
+
+/*Cor da borda PC*/
+.listaPC li {
+    background-color: rgba(37, 2, 82, 0.753);
+}
+
+/*Imagens SNES*/
+.listaSnes li {
+    height: 232.5px;
+    width: 380px;
+}
+
+.listaSnes img {
+    height: 200px;
+    width: 350px;
+}
+
+/*Imagens Game Boy*/
+.listaGameBoy li {
+    height: 332.5px;
+    width: 330px;
+}
+
+.listaGameBoy img {
+    height: 300px;
+    width: 300px;
+}
+
+/*Imagens N64*/
+.listaN64 li {
+    height: 312.5px;
+    width: 390px;
+}
+
+.listaN64 img {
+    height: 280px;
+    width: 360px;
+}
+
+/*Imagens NDS*/
+.listaNDS li {
+    height: 332.5px;
+    width: 330px;
+}
+
+.listaNDS img {
+    height: 300px;
+    width: 300px;
+}
+
+/*Imagens PS1*/
+.listaPS1 li {
+    height: 332.5px;
+    width: 330px;
+}
+
+.listaPS1 img {
+    height: 300px;
+    width: 300px;
+}
+
+/*Imagens PS2*/
+.listaPS2 li {
+    height: 382.5px;
+    width: 280px;
+}
+
+.listaPS2 img {
+    height: 350px;
+    width: 250px;
+}
+
+/*Imagens PS3*/
+.listaPS3 li {
+    height: 382.5px;
+    width: 320px;
+}
+
+.listaPS3 img {
+    height: 350px;
+    width: 290px;
+}
+
+/*Imagens PS4*/
+.listaPS4 li {
+    height: 382.5px;
+    width: 310px;
+}
+
+.listaPS4 img {
+    height: 350px;
+    width: 280px;
+}
+
+/*Imagens PC*/
+.listaPC li {
+    height: 352.5px;
+    width: 300px;
+}
+
+.listaPC img {
+    height: 320px;
+    width: 270px;
+}
